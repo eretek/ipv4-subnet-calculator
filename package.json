@@ -1,0 +1,15 @@
+{
+  "name": "ipv4-subnet-calculator",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Calculate network address, broadcast, wildcard, usable range and host count from an IP address with CIDR prefix or subnet mask. Handles /31 and /32 correctly.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://network.eretek.com/en/tools/ipv4-subnet-calculator",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
